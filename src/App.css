@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background: #e32f6e;
+  color: white;
+  font-weight: 1000;
+  font-size: 100;
+}
+
+.button {
+  background-color: #220e4d;
+  color: white;
+}
+
+
+
