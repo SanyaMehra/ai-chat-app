@@ -6,16 +6,50 @@
 }
 
 body {
-  background: #e32f6e;
-  color: white;
+  background: var(--background-color);
+  color: var(--text-color);
   font-weight: 1000;
   font-size: 100;
 }
 
 .button {
-  background-color: #220e4d;
-  color: white;
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* light mode */
+:root {
+  --background-color: #e32f6e;
+  --text-color: white;
+  --button-background-color: #220e4d;
+  --button-text-color: white;
+}
+
+/* dark mode */
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --button-background-color: #2323cd;
+  --button-text-color: white;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.answer-text {
+  word-wrap: break-word;
+  padding: 1rem;
+}
 
 
